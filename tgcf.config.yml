@@ -1,16 +1,15 @@
 admins: []
 forwards:
-- source: https://t.me/joinchat/TJduukH4DBEoTHGl
-  dest:
-  - https://t.me/joinchat/_rkJccHX3QY3Nzhh
-  offset: 9903
-  end: 0
+- source: -1001474867412
+  dest: -1001155537619
+  - 
+  offset: 0
 show_forwarded_from: false
 live:
   delete_sync: false
   delete_on_edit: null
 past:
-  delay: 11.0
+  delay: 10.0
 plugins:
   filter:
     files:
@@ -18,4 +17,3 @@ plugins:
       - document
       - video
       - video_note
-      - nofile
