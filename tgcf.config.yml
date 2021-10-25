@@ -27,9 +27,6 @@ past:
 plugins:
   # specify the plugins you want to use
   filter:
-    text:
-      blacklist: ["badword"]
-      
     files:
       whitelist: [document,video,video_note,nofile] 
       # valid types are 
