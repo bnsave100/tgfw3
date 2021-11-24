@@ -19,9 +19,9 @@ jobs:
           
       - uses: ./.github/actions/tgcf-past
         env:
-          API_ID: ${{ secrets.API_ID }}
-          API_HASH: ${{ secrets.API_HASH }}
-          SESSION_STRING: ${{ secrets.SESSION_STRING }}
+          API_ID: ${{ secrets.API_ID1 }}
+          API_HASH: ${{ secrets.API_HASH1 }}
+          SESSION_STRING: ${{ secrets.SESSION_STRING1 }}
 
       - name: Commit & Push changes
         uses: actions-js/push@master
